@@ -12,8 +12,8 @@
 [Tt]emp/
 [Bb]uild/
 [Oo]bj/
-*.csproj
+[Tt]emp*
+*.csproj*
 *.unityproj
-*.sln
+*.sln*
 *.user
-*.meta
