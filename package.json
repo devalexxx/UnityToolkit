@@ -1,0 +1,12 @@
+{
+    "name": "com.devalexxx.unitytoolkit",
+    "displayName": "Unity Toolkit",
+    "version": "1.0.0",
+    "description": "A unity toolkit.",
+    "author": {
+        "name": "Clorennec Alex",
+        "url": "https://github.com/devalexxx"
+    },
+
+    "unity": "2022.3"
+}

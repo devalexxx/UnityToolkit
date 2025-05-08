@@ -1,0 +1,8 @@
+{
+    "name": "UnityToolkit.Editor",
+    "references": [
+      "UnityToolkit"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": []
+}

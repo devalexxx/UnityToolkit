@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Visual Studio Code chache
+.vscode/
+
+# Editor config
+.editorconfig
+
+# Unity-related ignores
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Oo]bj/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.meta
