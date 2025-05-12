@@ -40,6 +40,7 @@ namespace UnityToolkit
             return _repr;
         }
 
+        public static implicit operator Guid(GUID p_guid) => Guid.Parse(p_guid._repr);
         public static implicit operator GUID(Guid p_guid) => new(p_guid);
     }
 }
