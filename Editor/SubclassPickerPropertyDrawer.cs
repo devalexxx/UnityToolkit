@@ -32,7 +32,11 @@ namespace UnityToolkit.Editor
 
             if (t_type.IsArray && t_type.FullName.EndsWith("[]")) 
             { 
-                t_type = Type.GetType(t_type.FullName[..^2]); 
+                var name = t_type.FullName[..^2];
+                t_type = AppDomain.CurrentDomain
+                    .GetAssemblies()
+                    .Select(a => a.GetType(name))
+                    .FirstOrDefault(t => t != null);
             } 
             string t_typeName = p_property.managedReferenceValue?.GetType().Name ?? "None";
 
